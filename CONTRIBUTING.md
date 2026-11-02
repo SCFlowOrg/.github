@@ -6,13 +6,32 @@ Thank you for helping. This guide applies to every repository of the organizatio
 
 - Search the existing issues first; add to one if it already covers your case.
 - For a bug or task, open an issue in the repository of the component concerned. Use the issue forms provided.
-- For work that spans several repositories, say so in the issue and link the related ones (`SCFlowOrg/<repo>#<number>`).
+- For work that spans several repositories, the work is tracked by a parent issue with one sub-issue per affected repository. Link them as sub-issues and reference them as `SCFlowOrg/<repo>#<number>`.
 
 ## Issues
 
 - Write titles that are short, imperative and in English.
 - One topic per issue.
 - Never include secrets, credentials or private data.
+
+## Labels
+
+Every repository uses the same set, in addition to the GitHub default labels.
+
+| Label | Meaning |
+| --- | --- |
+| `area:model` | Data and model of `scflow-core` |
+| `area:graph` | Graph views and layout |
+| `area:map` | Map views |
+| `area:ai` | AI assistants and skills |
+| `area:plugin-api` | Plugin contracts and builder |
+| `area:desktop` | Tauri desktop app and installers |
+| `area:i18n` | Translations |
+| `area:docs` | Documentation |
+| `sync` | Copy of packages or shell between repositories |
+| `cross-repo` | Linked to issues in other repositories |
+| `idea` | Not yet scoped; candidate for triage |
+| `blocked` | Waiting on another issue or a decision |
 
 ## Pull requests
 

@@ -8,7 +8,7 @@ This repository is public by GitHub's rule for organization-wide defaults. It co
 
 Defaults applied to every repository of the organization that does not define its own version of the same file:
 
-- Issue forms in [`ISSUE_TEMPLATE/`](ISSUE_TEMPLATE): bug report, task, feature request.
+- Issue forms in [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE): bug report, task, feature request.
 - A [pull request template](PULL_REQUEST_TEMPLATE.md).
 - A [contribution guide](CONTRIBUTING.md).
 
