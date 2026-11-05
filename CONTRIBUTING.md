@@ -30,7 +30,6 @@ Every repository uses the same set, in addition to the GitHub default labels.
 | `area:docs` | Documentation |
 | `sync` | Copy of packages or shell between repositories |
 | `cross-repo` | Linked to issues in other repositories |
-| `idea` | Not yet scoped; candidate for triage |
 | `blocked` | Waiting on another issue or a decision |
 
 ## Pull requests
